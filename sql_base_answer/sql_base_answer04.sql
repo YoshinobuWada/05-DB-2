@@ -1,0 +1,2 @@
+SELECT * FROM players
+WHERE TIMESTAMPDIFF(YEAR, birth, CURDATE()) >= 40;

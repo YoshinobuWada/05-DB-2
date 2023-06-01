@@ -1,0 +1,1 @@
+SELECT COUNT(player_id >= 714 AND player_id <= 736 or NULL) AS 日本のゴール数 FROM goals;

@@ -1,0 +1,1 @@
+SELECT COUNT(player_id IS NOT NULL OR NULL) AS オウンゴール以外のゴール数 FROM goals;

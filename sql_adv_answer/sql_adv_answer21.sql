@@ -1,0 +1,4 @@
+SELECT ((TIMESTAMPDIFF(YEAR,birth,'2014-06-13') DIV 5) * 5)AS age, COUNT(TIMESTAMPDIFF(YEAR,birth,'2014-06-13')) AS player_count
+FROM players
+GROUP BY age
+ORDER BY age ASC;

@@ -1,0 +1,1 @@
+SELECT name, DATE_FORMAT(birth, '%Y月%m月%d日') FROM players;
